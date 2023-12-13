@@ -46,17 +46,14 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Stcak Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: " Java Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    
   ];
   
   const technologies = [
@@ -79,10 +76,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -116,11 +109,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Developer Intern",
+      company_name: "IWEEN Software Solutions",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - September 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

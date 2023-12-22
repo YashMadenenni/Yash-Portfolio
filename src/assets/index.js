@@ -25,10 +25,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Iween from "./company/Iween.png";
+import DXC from "./company/DXC.png";
+import scottishShop from "./company/scottishShop.png";
+import reva from "./company/reva.png";
+import st_andrews from "./company/st_andrews.png";
+import st_andrews1 from "./company/st_andrews1.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tripPlanner from "./tripPlanner.png";
+import risk_assessment from "./risk_assessment.png";
+import wip from "./wip.png";
+import catGame from "./catGame.png";
 
 export {
   logo,
@@ -59,4 +69,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  Iween,
+  DXC,
+  scottishShop,
+  tripPlanner,
+  risk_assessment,
+  reva,
+  st_andrews,
+  st_andrews1,
+  wip,
+  catGame,
 };

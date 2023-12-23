@@ -39,6 +39,7 @@ import tripPlanner from "./tripPlanner.png";
 import risk_assessment from "./risk_assessment.png";
 import wip from "./wip.png";
 import catGame from "./catGame.png";
+import noImage from "./noImage.png";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   st_andrews1,
   wip,
   catGame,
+  noImage
 };

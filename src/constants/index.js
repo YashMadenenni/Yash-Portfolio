@@ -33,6 +33,7 @@ import {
   st_andrews1,
   wip,
   catGame,
+  noImage,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +42,15 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "tech",
+    title: "Skills",
+  },
+  {
+    id: "works",
     title: "Work",
   },
   {
@@ -68,49 +77,221 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML 5, XML",
     icon: html,
+    type: "front-end"
+  },
+  {
+    name: "XML",
+    icon: html,
+    type: "front-end"
   },
   {
     name: "CSS 3",
     icon: css,
+    type: "front-end"
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
+    name: "Bootstrap",
+    icon: "",
+    type: "front-end"
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    type: "front-end"
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "JavaScript",
+    icon: javascript,
+    type: "front-end"
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "React JS",
+    icon: reactjs,
+    type: "front-end"
+  },
+  
+  {
+    name: "jQuery",
+    icon: reactjs,
+    type: "front-end"
+  },
+  {
+    name: "D3.js",
+    icon: "",
+    type: "front-end"
   },
   {
     name: "Three JS",
     icon: threejs,
+    type: "front-end"
   },
   {
+    name: "Java",
+    icon: "",
+    type: "back-end"
+  },
+  
+  {
+    name: "Node JS",
+    icon: nodejs,
+    type:"back-end"
+  },
+  {
+    name: "Spring Boot",
+    icon: nodejs,
+    type:"back-end"
+  },
+  {
+    name: "Java Swing",
+    icon: "",
+    type:"back-end"
+  },
+  {
+    name: "JUnit",
+    icon: "",
+    type:"back-end"
+  },
+  {
+    name: "Shopify",
+    icon: "",
+    type:"back-end"
+  },
+  {
+    name: "Power Automate",
+    icon: "",
+    type:"back-end"
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+    type:"Databases"
+  },
+  {
+    name: "MongoDB Atlas",
+    icon: mongodb,
+    type:"Databases"
+  },
+  {
+    name: "SQLite",
+    icon: "",
+    type:"Databases"
+  },
+  {
+    name: "MySQL",
+    icon: "",
+    type:"Databases"
+  },
+  {
+    name: "JSON",
+    icon: "",
+    type:"Databases"
+  },
+  {
+    name: "XML",
+    icon: "",
+    type:"Databases"
+  },
+  {
+    name: "DBeaver",
+    icon: "",
+    type:"Databases"
+  },
+ 
+  {
+    
     name: "git",
     icon: git,
+    type:"tools"
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "GitHub Desktop",
+    icon: "",
+    type:"tools"
   },
+  {
+    name: "GitLab",
+    icon: "",
+    type:"tools"
+  },
+  {
+    name: "Visual Studio",
+    icon: "",
+    type:"tools"
+  },
+
+  {
+    name: "Docker",
+    icon: docker,
+    type:"tools"
+  },
+  {
+    name: "Tableau",
+    icon: "",
+    type:"tools"
+  },
+  {
+    name: "Maven",
+    icon: "",
+    type:"tools"
+  },
+  {
+    name: "Postman",
+    icon: "",
+    type:"tools"
+  },
+  {
+    name: "TDD",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "OOP",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "REST API's",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Software Engineering",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Software Architecture",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Kanban",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Agile - Scrum",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Waterfall",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "MVC",
+    icon: "",
+    type:"practices"
+  },
+  {
+    name: "Microservices",
+    icon: "",
+    type:"practices"
+  },
+
 ];
 
 const experiences = [
@@ -184,7 +365,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -263,7 +444,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: noImage,
     source_code_link: "https://github.com/YashMadenenni",
   },
   {
@@ -321,7 +502,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: noImage,
     source_code_link: "https://github.com/",
   },
   {
@@ -346,7 +527,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: noImage,
     source_code_link: "https://github.com/YashMadenenni/Wordle",
   },
   {
@@ -364,7 +545,7 @@ const projects = [
       },
       
     ],
-    image: tripguide,
+    image: noImage,
     source_code_link: "https://github.com/YashMadenenni/ChatServer",
   },
 
@@ -391,7 +572,7 @@ const projects = [
       },
       
     ],
-    image: wip,
+    image: noImage,
     source_code_link: "https://github.com/YashMadenenni/ChatServer",
   },
 
@@ -418,7 +599,7 @@ const projects = [
       },
       
     ],
-    image: wip,
+    image: noImage,
     source_code_link: "https://github.com/YashMadenenni/Guess-the-Cat-Game",
   },
 

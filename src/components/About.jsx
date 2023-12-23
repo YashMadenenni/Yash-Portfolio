@@ -50,9 +50,9 @@ const About = () => {
       <div className="flex sm:flex-row flex-col mt-10">
         <motion.div 
         variants={fadeIn("right","spring", 0.1, 2)}
-        className="about_img mx-auto " alt="user_image"></motion.div>
+        className="about_img mx-auto bg-[#7549d5bb] " alt="user_image"></motion.div>
 
-        <div className=" w-1/2 text-justify px-5">
+        <div className=" sm:w-1/2 w-full text-justify px-5">
           <motion.p
             variants={fadeIn("up", " spring", 0.1, 2)}
             className="mt-4 text-secoundary text-[17px]  leading-[30px] "

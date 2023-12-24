@@ -50,12 +50,12 @@ const About = () => {
       <div className="flex sm:flex-row flex-col mt-10">
         <motion.div 
         variants={fadeIn("right","spring", 0.1, 2)}
-        className="about_img mx-auto bg-[#7549d5bb] " alt="user_image"></motion.div>
+        className="about_img mx-auto bg-[#7549d5bb] mt-5" alt="user_image"></motion.div>
 
         <div className=" sm:w-1/2 w-full text-justify px-5">
           <motion.p
             variants={fadeIn("up", " spring", 0.1, 2)}
-            className="mt-4 text-secoundary text-[17px]  leading-[30px] "
+            className="mt-4 text-secoundary sm:text-[17px] text-[15px]  leading-[30px] "
           >
             I am an 2023 MSc graduate from the University of St Andrews
             with experience in various fields such as Java, B2B and B2C

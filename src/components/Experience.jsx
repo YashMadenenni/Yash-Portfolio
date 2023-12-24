@@ -18,23 +18,23 @@ const ExperienceCard = ({ experience }) => (
     contentStyle={{ background: `#1d1836`, color: "#fff" }}
     contentArrowStyle={{ broadRight: "7px solid #232631" }}
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
+    iconStyle={{ background: experience.iconBg,  }} //width: "40px", height: "40px",  marginLeft:"-20px"
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[70%] h-[70%] object-contain"
         />
       </div>
     }
   >
     <div>
-      <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+      <h3 className="text-white text-[20px] font-bold">{experience.title}</h3>
       <h5 className=" text-[14px] text-right font-normal italic">
         {experience.job_type ? experience.job_type : ""}
       </h5>
-      <p className="text-secoundary text-[16px]">{experience.company_name}</p>
+      <h3 className="text-secoundary text-[15px] !important ">{experience.company_name}</h3>
     </div>
 
     {/* <ul className='mt-5 list-disc ml-5 space-y-2'>
@@ -58,7 +58,8 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Experience <span className=" font-normal text-[75px] italic">|</span> Education.
+          Experience <span className=" font-normal text-[75px] italic">|</span>{" "}
+          Education.
         </h2>
       </motion.div>
 

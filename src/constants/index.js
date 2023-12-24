@@ -34,6 +34,37 @@ import {
   wip,
   catGame,
   noImage,
+  xml,
+  bootstrap,
+  d3,
+  dbeaver,
+  githubDesktop,
+  gitLab,
+  java,
+  jquery,
+  json,
+  junit,
+  maven,
+  mySql,
+  postman,
+  powerAutomate,
+  spring,
+  sql,
+  swing,
+  tableau,
+  vs,
+  mdbAtlas,
+  express,
+  tdd,
+  se,
+  architecture,
+  kanban,
+  agile,
+  mvc,
+  oop,
+  rest,
+  waterfall,
+  micro
 } from "../assets";
 
 export const navLinks = [
@@ -77,12 +108,7 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5, XML",
-    icon: html,
-    type: "front-end"
-  },
-  {
-    name: "XML",
+    name: "HTML 5",
     icon: html,
     type: "front-end"
   },
@@ -93,7 +119,7 @@ const technologies = [
   },
   {
     name: "Bootstrap",
-    icon: "",
+    icon: bootstrap,
     type: "front-end"
   },
   {
@@ -111,15 +137,15 @@ const technologies = [
     icon: reactjs,
     type: "front-end"
   },
-  
+
   {
     name: "jQuery",
-    icon: reactjs,
+    icon: jquery,
     type: "front-end"
   },
   {
     name: "D3.js",
-    icon: "",
+    icon: d3,
     type: "front-end"
   },
   {
@@ -129,167 +155,178 @@ const technologies = [
   },
   {
     name: "Java",
-    icon: "",
+    icon: java,
     type: "back-end"
   },
-  
+
   {
     name: "Node JS",
     icon: nodejs,
-    type:"back-end"
+    type: "back-end"
+  },
+  {
+    name: "Express JS",
+    icon: express,
+    type: "back-end"
   },
   {
     name: "Spring Boot",
-    icon: nodejs,
-    type:"back-end"
+    icon: spring,
+    type: "back-end"
   },
   {
     name: "Java Swing",
-    icon: "",
-    type:"back-end"
+    icon: java,
+    type: "back-end"
   },
   {
     name: "JUnit",
-    icon: "",
-    type:"back-end"
+    icon: junit,
+    type: "back-end"
   },
   {
     name: "Shopify",
-    icon: "",
-    type:"back-end"
+    icon: shopify,
+    type: "back-end"
   },
   {
     name: "Power Automate",
-    icon: "",
-    type:"back-end"
+    icon: powerAutomate,
+    type: "back-end"
   },
   {
     name: "MongoDB",
     icon: mongodb,
-    type:"Databases"
+    type: "Databases"
   },
   {
     name: "MongoDB Atlas",
-    icon: mongodb,
-    type:"Databases"
+    icon: mdbAtlas,
+    type: "Databases"
   },
   {
     name: "SQLite",
-    icon: "",
-    type:"Databases"
+    icon: sql,
+    type: "Databases"
   },
   {
     name: "MySQL",
-    icon: "",
-    type:"Databases"
+    icon: mySql,
+    type: "Databases"
   },
   {
     name: "JSON",
-    icon: "",
-    type:"Databases"
+    icon: json,
+    type: "Databases"
   },
   {
     name: "XML",
-    icon: "",
-    type:"Databases"
+    icon: xml,
+    type: "Databases"
   },
   {
     name: "DBeaver",
-    icon: "",
-    type:"Databases"
+    icon: dbeaver,
+    type: "Databases"
   },
- 
+
   {
-    
+
     name: "git",
     icon: git,
-    type:"tools"
+    type: "tools"
   },
   {
     name: "GitHub Desktop",
-    icon: "",
-    type:"tools"
+    icon: githubDesktop,
+    type: "tools"
   },
   {
     name: "GitLab",
-    icon: "",
-    type:"tools"
+    icon: gitLab,
+    type: "tools"
   },
   {
     name: "Visual Studio",
-    icon: "",
-    type:"tools"
+    icon: vs,
+    type: "tools"
   },
 
   {
     name: "Docker",
     icon: docker,
-    type:"tools"
+    type: "tools"
   },
   {
     name: "Tableau",
-    icon: "",
-    type:"tools"
+    icon: tableau,
+    type: "tools"
   },
   {
     name: "Maven",
-    icon: "",
-    type:"tools"
+    icon: maven,
+    type: "tools"
   },
   {
     name: "Postman",
-    icon: "",
-    type:"tools"
+    icon: postman,
+    type: "tools"
   },
+
+
+
+
+
+
   {
     name: "TDD",
-    icon: "",
-    type:"practices"
+    icon: tdd,
+    type: "practices"
   },
   {
     name: "OOP",
-    icon: "",
-    type:"practices"
+    icon: oop,
+    type: "practices"
   },
   {
     name: "REST API's",
-    icon: "",
-    type:"practices"
+    icon: rest,
+    type: "practices"
   },
   {
     name: "Software Engineering",
-    icon: "",
-    type:"practices"
+    icon: se,
+    type: "practices"
   },
   {
     name: "Software Architecture",
-    icon: "",
-    type:"practices"
+    icon: architecture,
+    type: "practices"
   },
   {
     name: "Kanban",
-    icon: "",
-    type:"practices"
+    icon: kanban,
+    type: "practices"
   },
   {
     name: "Agile - Scrum",
-    icon: "",
-    type:"practices"
+    icon: agile,
+    type: "practices"
   },
   {
     name: "Waterfall",
-    icon: "",
-    type:"practices"
+    icon: waterfall,
+    type: "practices"
   },
   {
     name: "MVC",
-    icon: "",
-    type:"practices"
+    icon: mvc,
+    type: "practices"
   },
   {
     name: "Microservices",
-    icon: "",
-    type:"practices"
+    icon: micro,
+    type: "practices"
   },
 
 ];
@@ -309,8 +346,8 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  
- 
+
+
   {
     title: "Shopify Developer ",
     job_type: "- Part Time (During Master's)",
@@ -355,7 +392,7 @@ const experiences = [
   {
     title: "B.Tech in Computer Science and Engineering",
     company_name: "Reva University",
-    job_type:"Bachelors",
+    job_type: "Bachelors",
     icon: reva,
     iconBg: "#FFFFFF",
     date: "July 2021",
@@ -396,7 +433,7 @@ const testimonials = [
 ];
 
 const projects = [
-  
+
   {
     name: "Travel Planner",
     description:
@@ -543,7 +580,7 @@ const projects = [
         name: "Threads",
         color: "green-text-gradient",
       },
-      
+
     ],
     image: noImage,
     source_code_link: "https://github.com/YashMadenenni/ChatServer",
@@ -570,7 +607,7 @@ const projects = [
         name: "Agile",
         color: "orange-text-gradient",
       },
-      
+
     ],
     image: noImage,
     source_code_link: "https://github.com/YashMadenenni/ChatServer",
@@ -597,7 +634,7 @@ const projects = [
         name: "Express.js",
         color: "blue-text-gradient",
       },
-      
+
     ],
     image: noImage,
     source_code_link: "https://github.com/YashMadenenni/Guess-the-Cat-Game",
@@ -616,7 +653,7 @@ const projects = [
         name: "Bootstrap",
         color: "green-text-gradient",
       },
-      
+
     ],
     image: catGame,
     source_code_link: "https://github.com/YashMadenenni/Guess-the-Cat-Game",

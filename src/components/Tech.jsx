@@ -21,51 +21,56 @@ const Tech = () => {
     </div> */}
 
       <motion.div variants={textVariant()} className="">
-        <p className={`${styles.heroHeadText} text-center`}>Skills</p>
+        <p className={`${styles.sectionHeadText} text-center`}>Skills</p>
       </motion.div>
-      <TechCircle type={"front-end"} delay={0.5} />
-      <TechCircle type={"back-end"} delay={1}/>
-      <TechCircle type={"Databases"} delay={1.5}/>
-      <TechCircle type={"tools"} delay={2}/>
-      <TechCircle type={"practices"} delay={2.5}/>
+      <div className=" flex sm:flex-col flex-col">
+        <TechCircle type={"front-end"} delay={0.5} />
+        <TechCircle type={"back-end"} delay={1} />
+        <TechCircle type={"Databases"} delay={1.5} />
+        <TechCircle type={"tools"} delay={2} />
+        <TechCircle type={"practices"} delay={2.5} />
+      </div>
     </>
   );
 };
 
 const TechCircle = ({ type, delay }) => {
   return (
-      
     <div>
-      <motion.div variants={fadeIn("up", "spring",delay, 1)} className="mt-5">
+      <motion.div variants={fadeIn("up", "spring", delay, 1)} className="mt-5">
         <p className={`${styles.sectionSubText} text-center my-auto mb-5 `}>
           {type}
         </p>
-        </motion.div>
-        <div className="flex flex-row flex-wrap justify-center gap-10 px-5">
-      {technologies.map((tech, index) =>
-        tech.type === type ? (
-          <motion.div
-            variants={fadeIn("up", "spring", index * 0.1, 1)}
-            className=""
-          >
-            <div className=" h-12 w-12 bg-white rounded-3xl ">
-              <img
-                src={tech.icon}
-                key={tech.id || index}
-                className=" p-1"
-              ></img>
-            </div>
-            <p className=" pt-1 w-14 justify-center text-[13px] text-secondary">
-              {tech.name}
-            </p>
-          </motion.div>
-        ) : (
-          ""
-        )
-      )}
+      </motion.div>
+      <div className="flex flex-row flex-wrap justify-center gap-9 px-2">
+        {technologies.map((tech, index) =>
+          tech.type === type ? (
+            <motion.div
+              variants={fadeIn("up", "spring", index * 0.1, 1)}
+              className="w-12"
+              key={index}
+            >
+              <div className=" h-12  bg-white rounded-3xl ">
+                <img
+                  src={tech.icon}
+                 
+                  className=" p-1 w-full rounded-2xl h-12"
+                ></img>
+              </div>
+              <p 
+              className={`  text-center text-[12px] text-secondary `}> 
+              {/* ${type === "front-end" ? "blue-text-gradient":
+              (type === "back-end" ?"green-text-gradient":
+              (type === "Databases" ? "pink-text-gradient":""))} */}
+                {tech.name}
+              </p>
+            </motion.div>
+          ) : (
+            ""
+          )
+        )}
+      </div>
     </div>
-    </div>
-    
   );
 };
 

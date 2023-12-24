@@ -20,7 +20,36 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import bootstrap from "./tech/bootstrap.svg";
+import d3 from "./tech/d3.svg";
+import dbeaver from "./tech/dbeaver.png";
+import githubDesktop from "./tech/githubDesktop.svg";
+import gitLab from "./tech/gitLab.png";
+import java from "./tech/java.svg";
+import jquery from "./tech/jquery.svg";
+import json from "./tech/json.svg";
+import junit from "./tech/junit.png";
+import maven from "./tech/maven.png";
+import mySql from "./tech/mysql.svg";
+import postman from "./tech/postman.svg";
+import powerAutomate from "./tech/powerAutomate.png";
+import spring from "./tech/spring.png";
+import sql from "./tech/sqlite.svg";
+import swing from "./tech/swing.png";
+import tableau from "./tech/tableau.svg";
+import vs from "./tech/vs.svg";
+import mdbAtlas from "./tech/mdbAtlas.png";
+import express from "./tech/express.svg";
+import tdd from "./tech/tdd.png";
+import se from "./tech/se.jpg";
+import architecture from "./tech/architecture.png";
+import kanban from "./tech/kanban.jpg";
+import agile from "./tech/agile.svg";
+import mvc from "./tech/mvc.png";
+import oop from "./tech/oop.png";
+import rest from "./tech/rest.png";
+import waterfall from "./tech/waterfall.png";
+import micro from "./tech/micro.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -40,6 +69,8 @@ import risk_assessment from "./risk_assessment.png";
 import wip from "./wip.png";
 import catGame from "./catGame.png";
 import noImage from "./noImage.png";
+import xml from "./tech/xml.svg";
+import { v } from "maath/dist/misc-19a3ec46.esm";
 
 export {
   logo,
@@ -80,5 +111,36 @@ export {
   st_andrews1,
   wip,
   catGame,
-  noImage
+  noImage,
+  xml,
+  bootstrap,
+  d3,
+  dbeaver,
+  githubDesktop,
+  gitLab,
+  java,
+  jquery,
+  json,
+  junit,
+  maven,
+  mySql,
+  postman,
+  powerAutomate,
+  spring,
+  sql,
+  swing,
+  tableau,
+  vs,
+  mdbAtlas,
+  express,
+  tdd,
+  se,
+  architecture,
+  kanban,
+  agile,
+  mvc,
+  oop,
+  rest,
+  waterfall,
+  micro
 };

@@ -50,7 +50,7 @@ const TechCircle = ({ type, delay }) => {
               className="w-12"
               key={index}
             >
-              <div className=" h-12  bg-white rounded-3xl ">
+              <div className=" h-12  bg-gradient-to-r from-indigo-400 to-white-300  border-rounded-3xl ">
                 <img
                   src={tech.icon}
                  

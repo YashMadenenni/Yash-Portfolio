@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -18,7 +17,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.svg";
 import d3 from "./tech/d3.svg";
@@ -35,7 +33,6 @@ import postman from "./tech/postman.svg";
 import powerAutomate from "./tech/powerAutomate.png";
 import spring from "./tech/spring.png";
 import sql from "./tech/sqlite.svg";
-import swing from "./tech/swing.png";
 import tableau from "./tech/tableau.svg";
 import vs from "./tech/vs.svg";
 import mdbAtlas from "./tech/mdbAtlas.png";
@@ -75,7 +72,7 @@ import { v } from "maath/dist/misc-19a3ec46.esm";
 export {
   logo,
   backend,
-  creator,
+  
   mobile,
   web,
   github,
@@ -83,7 +80,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -92,14 +88,10 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+
   threejs,
-  meta,
+ 
   shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   tripguide,
   Iween,
   DXC,
@@ -128,7 +120,6 @@ export {
   powerAutomate,
   spring,
   sql,
-  swing,
   tableau,
   vs,
   mdbAtlas,

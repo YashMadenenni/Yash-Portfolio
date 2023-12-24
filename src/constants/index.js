@@ -1,27 +1,23 @@
 import {
   mobile,
   backend,
-  creator,
+
   web,
   javascript,
-  typescript,
+
   html,
   css,
   reactjs,
-  redux,
+
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+
   docker,
-  meta,
-  starbucks,
-  tesla,
+
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+
   threejs,
   Iween,
   DXC,
@@ -29,7 +25,7 @@ import {
   tripPlanner,
   risk_assessment,
   reva,
-  st_andrews,
+
   st_andrews1,
   wip,
   catGame,
@@ -50,7 +46,6 @@ import {
   powerAutomate,
   spring,
   sql,
-  swing,
   tableau,
   vs,
   mdbAtlas,

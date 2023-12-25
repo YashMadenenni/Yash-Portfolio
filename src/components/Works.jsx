@@ -84,7 +84,7 @@ const Works = () => {
           className="mt-1 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcase my skills and experience through
-          real-world examples of my work. Eachh project is brefly described with
+          real-world examples of my work. Each project is brefly described with
           links to code repositories. It refelects my ability to work with a
           wide range of languages and frameworks, and manage projects
           effectively.

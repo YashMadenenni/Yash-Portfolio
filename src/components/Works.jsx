@@ -18,14 +18,14 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 1)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 3)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[500px]"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[530px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -78,7 +78,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex justify-center ">
+      <div className="w-full  justify-center sm:flex hidden ">
         <motion.p
           variants={fadeIn("up", "spring", 0.3, 2)}
           className="mt-1 text-secondary text-[17px] max-w-3xl leading-[30px]"

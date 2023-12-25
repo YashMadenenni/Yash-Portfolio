@@ -38,7 +38,7 @@ const TechCircle = ({ type, delay }) => {
   return (
     <div>
       <motion.div variants={fadeIn("up", "spring", delay, 1)} className="mt-5">
-        <p className={`${styles.sectionSubText} text-center my-auto mb-5 `}>
+        <p className={`${styles.sectionSubText} text-white font-bold text-center my-auto mb-5 `}>
           {type}
         </p>
       </motion.div>

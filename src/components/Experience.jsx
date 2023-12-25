@@ -58,7 +58,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Experience <span className=" font-normal text-[75px] italic">|</span>{" "}
+          Experience <span className=" font-normal sm:text-[75px] text-[40px] sm:italic">|</span>{" "}
           Education.
         </h2>
       </motion.div>

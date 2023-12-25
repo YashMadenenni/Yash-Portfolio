@@ -18,7 +18,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 1)}>
       <Tilt
         options={{
           max: 45,
@@ -80,7 +80,7 @@ const Works = () => {
 
       <div className="w-full flex justify-center ">
         <motion.p
-          variants={fadeIn("down", "spring", 0.1, 1)}
+          variants={fadeIn("up", "spring", 0.3, 2)}
           className="mt-1 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcase my skills and experience through
@@ -100,4 +100,6 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "works");
+// export default Works;
+
+ export default SectionWrapper(Works, "works");

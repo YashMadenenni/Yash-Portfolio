@@ -18,14 +18,15 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 3)}>
+    <motion.div variants={fadeIn("up", "spring", index * 1, 3)} viewport={{ once: true, amount: 0.3}}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[530px]"
+        className="bg-gradient-to-r
+        from-[#527886a3] via-[#4a7c8c8e] to-[#3e648ee2]  p-5 rounded-2xl sm:w-[360px] w-full h-[530px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -52,7 +53,7 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] text-justify">{description}</p>
+          <p className="mt-2 text-white text-[14px] text-justify">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2 h-10 items-end">
@@ -81,7 +82,7 @@ const Works = () => {
       <div className="w-full  justify-center sm:flex hidden ">
         <motion.p
           variants={fadeIn("up", "spring", 0.3, 2)}
-          className="mt-1 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-1 text-white text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcase my skills and experience through
           real-world examples of my work. Each project is brefly described with

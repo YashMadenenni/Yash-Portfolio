@@ -13,25 +13,25 @@ const Hero = () => {
       flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-96 violet-gradient " />
+          <div className="w-5 h-5 rounded-full bg-[#F3BD3C]" />
+          <div className="w-1 sm:h-80 h-96 bg-gradient-to-t from-yellow-0 via-yellow-200 to-yellow-400   " />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm
-            <span className="text-[#915eff]">Yash</span>
+            <span className="text-[#F3BD3C]">Yash</span>
           </h1>
           <div
             className={`${styles.heroSubText} mt-2  bg-gradient-to-r from-red-500 to-white-100 bg-clip-text text-transparent`}
           >
             <TypeWriterEffect
               textStyle={{
-                 color: "#dfd9ff",
+                 color: "#F3BD3C",
                 textShadow:
-                  "0px 0px 6px #dfd9ff",
+                  "0px 0px 6px #F3BD3C",
               }}
               // startDelay={1000}
-              cursorColor="#3F3D56"
+              cursorColor="#F3BD3C"
               multiText={[
                 "Full stack developer",
                 "MERN stack developer",
@@ -54,7 +54,7 @@ const Hero = () => {
         <a href="#about">
           <div
             className=" w-[35px] h-[64px] 
-          rounded-3xl border-4 border-secondary
+          rounded-3xl border-4 border-[#F3BD3C]
           flex justify-center items-start p-2"
           >
             <motion.div
@@ -66,7 +66,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 rounded-full bg-[#F3BD3C] mb-1"
             />
           </div>
         </a>

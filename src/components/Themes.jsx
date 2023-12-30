@@ -38,15 +38,15 @@ const ThemeToggle = () => {
 //   };
 
   return (
-    <div className=" flex gap-2 fixed  bottom-4 sm:right-12 right-10 z-20 text-white">
+    <div className=" flex gap-2 fixed  bottom-4 sm:right-12 right-2 z-20 text-white">
             <button className={` w-7 h-7 rounded-xl bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 
-            ${isDark === 1?'border-4':''} hover:border-4 hover:border-black`} 
+            ${isDark === 1?'border-4':''} hover:border-4 hover:border-secondary`} 
             onClick={()=>{
                 // toggleDarkMode
                 setisDark(1)
                 document.documentElement.classList.remove('dark')} } />
             <button className={` w-7 h-7 rounded-xl bg-gradient-to-r from-red-800 via-red-500 to-green-800 
-            hover:border-4 hover:border-black ${isDark === 2?'border-4':''} `}
+            hover:border-4 hover:border-secondary ${isDark === 2?'border-4':''} `}
             onClick={()=>{
                 // toggleDarkMode
                 setisDark(2)

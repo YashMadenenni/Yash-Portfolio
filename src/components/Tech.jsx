@@ -50,7 +50,9 @@ const TechCircle = ({ type, delay }) => {
               className="w-12"
               key={index}
             >
-              <div className=" h-12  bg-gradient-to-r from-orange-800 to-white-300  border-rounded-3xl ">
+              <div className=" h-12 
+              bg-gradient-to-r from-indigo-400 to-white-300
+               dark:bg-gradient-to-r dark:from-orange-800 to-white-300  border-rounded-3xl ">
                 <img
                   src={tech.icon}
                  
@@ -58,7 +60,7 @@ const TechCircle = ({ type, delay }) => {
                 ></img>
               </div>
               <p 
-              className={`  text-center text-[12px] text-white `}> 
+              className={`  text-center text-[12px] text-secondary  dark:text-white `}> 
               {/* ${type === "front-end" ? "blue-text-gradient":
               (type === "back-end" ?"green-text-gradient":
               (type === "Databases" ? "pink-text-gradient":""))} */}

@@ -194,11 +194,11 @@ const technologies = [
     icon: mongodb,
     type: "Databases"
   },
-  {
-    name: "MongoDB Atlas",
-    icon: mdbAtlas,
-    type: "Databases"
-  },
+  // {
+  //   name: "MongoDB Atlas",
+  //   icon: mdbAtlas,
+  //   type: "Databases"
+  // },
   {
     name: "SQLite",
     icon: sql,

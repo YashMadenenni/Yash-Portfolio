@@ -452,7 +452,7 @@ const projects = [
       },
     ],
     image: tripPlanner,
-    source_code_link: "https://github.com/YashMadenenni/trip-Planner",
+    source_code_link: "https://github.com/YashMadenenni/TravelPlanner",
   },
   {
     name: "Room Booking System",
@@ -535,7 +535,7 @@ const projects = [
       },
     ],
     image: noImage,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/YashMadenenni/Yash-Portfolio",
   },
   {
     name: "Wordle Source Code",
@@ -605,7 +605,7 @@ const projects = [
 
     ],
     image: noImage,
-    source_code_link: "https://github.com/YashMadenenni/ChatServer",
+    source_code_link: "https://github.com/YashMadenenni/Story-Writer",
   },
 
   {
@@ -632,7 +632,7 @@ const projects = [
 
     ],
     image: noImage,
-    source_code_link: "https://github.com/YashMadenenni/Guess-the-Cat-Game",
+    source_code_link: "https://github.com/YashMadenenni/Emojitar",
   },
 
   {
@@ -673,7 +673,7 @@ const projects = [
       },
     ],
     image: wip,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/YashMadenenni",
   },
 ];
 
